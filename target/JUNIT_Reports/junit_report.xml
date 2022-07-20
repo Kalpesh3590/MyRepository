@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="20.281">
+    <testcase classname="Testing the fuctionality of an browser." name="verifying the URL." time="8.024">
+        <system-out><![CDATA[Given Open the Browser......................................................passed
+When Enter the URL. "https://www.saucedemo.com/"............................passed
+Then Page is displayed......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verifying the login fuctionality." name="Checking the fuctionality for valid data." time="5.832">
+        <system-out><![CDATA[Given User on the webpage "https://www.saucedemo.com/"......................passed
+And User passes the 'standard_user'.........................................passed
+And User enters the 'secret_sauce'..........................................passed
+When Click on the LoginButton...............................................passed
+Then User is navigate to product backlog page...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verifying the login fuctionality." name="Checking the fuctionality for valid data. 2" time="5.973">
+        <system-out><![CDATA[Given User on the webpage "https://www.saucedemo.com/"......................passed
+And User passes the 'problem_user'..........................................passed
+And User enters the 'secret_sauce'..........................................passed
+When Click on the LoginButton...............................................passed
+Then User is navigate to product backlog page...............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
